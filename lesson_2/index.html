@@ -1,45 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Resume (lesson_2)</title>
+    <!-- prettier-ignore -->
+    <meta charset="UTF-8">
+    <!-- prettier-ignore -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lesson_2 (My Resume)</title>
   </head>
+  <!-- !!! В деаких теґах застосовано атрибут `style` бо ми ще не вчили каскадні таблиці стилів (CSS) -->
   <body>
     <header id="header">
-      <!-- Info -->
+      <!-- Title -->
       <h1>Bogdan Babich</h1>
-      <img
-        src="img/anonymous.png"
-        alt="A man in a mask and hat sits on a chair"
-      />
       <h2><mark>Web Developer</mark></h2>
-      <ul>
-        <li><a href="#about-me">About Me</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#contacts">Contacts</a></li>
+      <!-- prettier-ignore -->
+      <img src="img/anonymous.png" alt="A man in a mask and hat sits on a chair">
+      <!-- Nav -->
+      <h3>Page Navigation</h3>
+      <ul style="font-weight: bold; list-style-type: none">
+        <li style="display: inline-block">
+          <a
+            href="#about-me"
+            title="Go to About Me"
+            style="text-decoration: none; color: red"
+            >| About Me |
+          </a>
+        </li>
+        <li style="display: inline-block">
+          <a
+            href="#projects"
+            title="Go to Projects"
+            style="text-decoration: none; color: red"
+            >| Projects |
+          </a>
+        </li>
+        <li style="display: inline-block">
+          <a
+            href="#experience"
+            title="Go to Experience"
+            style="text-decoration: none; color: red"
+            >| Experience |
+          </a>
+        </li>
+        <li style="display: inline-block">
+          <a
+            href="#education"
+            title="Go to Education"
+            style="text-decoration: none; color: red"
+            >| Education |
+          </a>
+        </li>
+        <li style="display: inline-block">
+          <a
+            href="#contacts"
+            title="Go to Contacts"
+            style="text-decoration: none; color: red"
+            >| Contacts |
+          </a>
+        </li>
       </ul>
     </header>
     <main>
       <!-- About Me -->
       <div id="about-me">
         <h2>About Me</h2>
-        <p>
-          Hello! <br />
+        <!-- prettier-ignore -->
+        <p class="text">
+          Hello! <br>
           My name is Bogdan and I'm a budding web developer with a passion for
-          technology and cycling. While I haven't had the opportunity to gain
-          work experience in web development yet, I am diligently learning and
+          technology. While I haven't had the opportunity to gain work
+          experience in web development yet, I am diligently learning and
           improving my skills every day. I have knowledge in HTML, CSS, and
           JavaScript, and feel comfortable working in web environments. Beyond
           web development, I have another passion - cycling. It inspires me and
           helps me maintain balance in my life. I love cycling, exploring new
           places, and feeling the freedom of the open road. I'm keen on
           exploring innovative problem-solving techniques and creative
-          development strategies.
-        </p>
-        <p>
+          development strategies.<br>
           I'm ready to tackle challenges and enthusiastic about the chance to
           make valuable contributions to your team.
         </p>
@@ -47,19 +84,33 @@
       <!-- Projects -->
       <div id="projects">
         <h2>Projects</h2>
-        <ol>
+        <ol style="font-weight: bold">
           <li>
-            <a href="my-progect.html" target="_blank">My website</a>
+            <a
+              href="my-progect.html"
+              title="Go to My Website"
+              target="_blank"
+              style="text-decoration: none"
+              >Project №1
+            </a>
           </li>
           <li>
-            <a href="https://google.com/" target="_blank"
-              >Project №2 (not ready)</a
-            >
+            <a
+              href="https://google.com"
+              title="Go to Google.com"
+              target="_blank"
+              style="text-decoration: none"
+              >Project №2 (not ready)
+            </a>
           </li>
           <li>
-            <a href="https://google.com/" target="_blank"
-              >Project №3 (not ready)</a
-            >
+            <a
+              href="https://google.com"
+              title="Go to Google.com"
+              target="_blank"
+              style="text-decoration: none"
+              >Project №3 (not ready)
+            </a>
           </li>
         </ol>
       </div>
@@ -68,9 +119,7 @@
         <h2>Experience</h2>
         <!-- Company 1 -->
         <div>
-          <h3>
-            Web Developer <span style="color: blueviolet">Freelance</span>
-          </h3>
+          <h3>Web Developer <span style="color: gray">Freelance</span></h3>
           <p>March 2024 - up to now | World</p>
           <ul>
             <li>Suspendisse quis risus sit amet libero auctor cursus.</li>
@@ -86,7 +135,7 @@
         </div>
         <!-- Company 2 -->
         <div>
-          <h3>CEO <span style="color: blueviolet">LLC "BSU"</span></h3>
+          <h3>CEO <span style="color: gray">LLC "BSU"</span></h3>
           <p>March 2021 - December 2023 | Ukraine</p>
           <ul>
             <li>Vivamus varius ligula quis tincidunt consectetur.</li>
@@ -96,9 +145,7 @@
         </div>
         <!-- Company 3 -->
         <div>
-          <h3>
-            Manager <span style="color: blueviolet">LLC PCC "Ariya"</span>
-          </h3>
+          <h3>Manager <span style="color: gray">LLC PCC "Ariya"</span></h3>
           <p>June 2012 - March 2021 | Ukraine</p>
           <ul>
             <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
@@ -110,22 +157,40 @@
       <!-- Education -->
       <div id="education">
         <h2>Education</h2>
-        <h3>Poltava National Technical University</h3>
+        <h3>
+          Poltava <span style="color: gray">National Technical University</span>
+        </h3>
+        <!-- prettier-ignore -->
         <p>
-          Management <br />
+          Management <br>
           September 2006 - June 2012 | Ukraine
         </p>
       </div>
     </main>
     <!-- Contacts -->
-    <div id="contacts">
-      <h2>Contacts</h2>
-      <p>Telefon: <a href="tel:+380675312679">+38(067)5312679</a></p>
-      <p>E-Mail: <a href="malto:babich@gmail.com">babich@gmail.com</a></p>
-    </div>
     <footer>
-      <a href="#header">return to the top of the page</a>
-      <p>&copy; Mr.Pusheer 2024 All rights reserved.</p>
+      <div id="contacts">
+        <h2>Contacts</h2>
+        <ul>
+          <li>
+            Telefon:
+            <a href="tel:+380675312679" title="Call me">+38(067)5312679</a>
+          </li>
+          <li>
+            E-Mail:
+            <a href="mailto:babich.workbox@gmail.com" title="Send me an e-mail"
+              >babich.workbox@gmail.com
+            </a>
+          </li>
+        </ul>
+      </div>
+      <a
+        href="#header"
+        title="Back to the top of the page"
+        style="text-decoration: none; font-weight: bold; color: red"
+        >&#8679; UP PAGE &#8679;
+      </a>
+      <p>&copy; Mr.Pusheer | 2024 | My Resume</p>
     </footer>
   </body>
 </html>
