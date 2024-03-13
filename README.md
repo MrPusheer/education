@@ -3,7 +3,7 @@
 ## Training Projects
 
 ### Iphone 15 Pro
-https://mrpusheer.github.io/education/training-projects/iphone-15-Pro/
+https://mrpusheer.github.io/education/training-projects/iphone-15-pro/
 
 ### Next Projects
 https://mrpusheer.github.io/education/training-projects/project-name/
@@ -12,9 +12,12 @@ https://mrpusheer.github.io/education/training-projects/project-name/
 https://mrpusheer.github.io/education/training-projects/project-name/
 
 ## Freelancer Lifestyle [homework] 
+
 ### Lesson #2
 https://mrpusheer.github.io/education/fls-homework/lesson_2/
+
 ### Lesson #3
+https://mrpusheer.github.io/education/fls-homework/lesson_3/
                 
 ### Lesson #4
 
