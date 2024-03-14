@@ -2,17 +2,13 @@
 
 ## Training Projects (free)
 
-### Iphone 15 Pro (march 2024)
-* [https://mrpusheer.github.io/education/training-projects/iphone-15-pro/](https://mrpusheer.github.io/education/training-projects/iphone-15-pro/)
-* [Iphone 15 Pro (march 2024)](https://mrpusheer.github.io/education/training-projects/iphone-15-pro/)
+* ###  Website [Iphone 15 Pro](https://mrpusheer.github.io/education/training-projects/iphone-15-pro/)
+   **Іnfo:** *Landing page* | **Date:** *March 2024* | **Source:** *YouTube*
+  
+* ###  NewProject [Project Name](https://mrpusheer.github.io/education/training-projects/project-name/)
+  **Date:** *Мonth 2024*    **Source:** *Data source*
 
-### [Iphone 15 Pro (march 2024)](https://mrpusheer.github.io/education/training-projects/iphone-15-pro/)
-
-* ###  Website [Iphone 15 Pro (march 2024)](https://mrpusheer.github.io/education/training-projects/iphone-15-pro/)
-  **Date:** *March 2024*    **Source:** *YouTube*
-
-
-## Freelancer Lifestyle (homework) (04.03.2024 - ...)
+## Freelancer Lifestyle (homework) (2024)
 
 ### Lesson #2
 * [https://mrpusheer.github.io/education/fls-homework/lesson_2/](https://mrpusheer.github.io/education/fls-homework/lesson_2/)
