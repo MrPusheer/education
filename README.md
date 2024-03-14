@@ -8,7 +8,8 @@
 
 ### [Iphone 15 Pro (march 2024)](https://mrpusheer.github.io/education/training-projects/iphone-15-pro/)
 
-### Next Progect
+* ###  Website [Iphone 15 Pro (march 2024)](https://mrpusheer.github.io/education/training-projects/iphone-15-pro/)
+  **Date:** *March 2024*    **Source:** *YouTube*
 
 
 ## Freelancer Lifestyle (homework) (04.03.2024 - ...)
