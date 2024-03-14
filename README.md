@@ -4,12 +4,12 @@
 
 ### Iphone 15 Pro (march 2024)
 * [https://mrpusheer.github.io/education/training-projects/iphone-15-pro/](https://mrpusheer.github.io/education/training-projects/iphone-15-pro/)
+* * [Iphone 15 Pro (march 2024)](https://mrpusheer.github.io/education/training-projects/iphone-15-pro/)
 
-### Next Projects
-* https://mrpusheer.github.io/education/training-projects/project-name/
+### [Iphone 15 Pro (march 2024)](https://mrpusheer.github.io/education/training-projects/iphone-15-pro/)
 
-### Next Projects
-* https://mrpusheer.github.io/education/training-projects/project-name/
+### Next Progect
+
 
 ## Freelancer Lifestyle (homework) (04.03.2024 - ...)
 
