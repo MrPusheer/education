@@ -9,7 +9,7 @@ https://mrpusheer.github.io/education/training-projects/iphone-15-pro/
 https://mrpusheer.github.io/education/training-projects/project-name/
 
 ### Next Projects 
-https://mrpusheer.github.io/education/training-projects/project-name/
+<a>https://mrpusheer.github.io/education/training-projects/project-name/</a>
 
 ## Freelancer Lifestyle [homework] 
 
