@@ -10,6 +10,9 @@
 
 ## Freelancer Lifestyle (homework) (2024)
 
+### Lesson #1
+* [https://mrpusheer.github.io/education/fls-homework/lesson_1/](https://mrpusheer.github.io/education/fls-homework/lesson_1/)
+
 ### Lesson #2
 * [https://mrpusheer.github.io/education/fls-homework/lesson_2/](https://mrpusheer.github.io/education/fls-homework/lesson_2/)
 
@@ -36,3 +39,4 @@
 
 ### Lesson #10 (not ready)
 * https://mrpusheer.github.io/education/fls-homework/lesson_10/
+
