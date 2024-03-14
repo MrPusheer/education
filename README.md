@@ -4,7 +4,7 @@
 
 ### Iphone 15 Pro (march 2024)
 * [https://mrpusheer.github.io/education/training-projects/iphone-15-pro/](https://mrpusheer.github.io/education/training-projects/iphone-15-pro/)
-* * [Iphone 15 Pro (march 2024)](https://mrpusheer.github.io/education/training-projects/iphone-15-pro/)
+* [Iphone 15 Pro (march 2024)](https://mrpusheer.github.io/education/training-projects/iphone-15-pro/)
 
 ### [Iphone 15 Pro (march 2024)](https://mrpusheer.github.io/education/training-projects/iphone-15-pro/)
 
