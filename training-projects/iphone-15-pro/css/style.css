@@ -3,10 +3,6 @@
 /* Треба прибрати базовий шрифт */
 body {
   font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  line-height: 18px;
-  font-weight: 400;
-  color: #fc0000;
 }
 
 .header {
@@ -49,7 +45,7 @@ body {
 .headline {
   background-color: #101010;
   text-align: center;
-  padding: 70px 0 40px;
+  padding: 60px 0 40px;
 }
 
 .title {
@@ -76,9 +72,111 @@ body {
   cursor: pointer;
   font-size: 24px;
   line-height: 32px;
-  font-weight: 400;
+  font-weight: 300;
   color: #fff;
   background: #0071e3;
   padding: 12px 28px;
   border-radius: 28px;
+}
+
+.functions {
+  background-color: #0a0a0a;
+  padding: 20px 0 0;
+}
+
+.functions-title {
+  font-size: 40px;
+  line-height: 64px;
+  font-weight: 400;
+  color: #f5f5f7;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.functions-info {
+  display: flex;
+  align-items: center;
+}
+
+.functions-text {
+  font-size: 20px;
+  line-height: 24px;
+  color: #86868b;
+  max-width: 584px;
+}
+
+.functions-text h3 {
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 4px;
+}
+.functions-text p {
+  font-weight: 300;
+  margin-bottom: 32px;
+}
+.functions-img {
+  margin-left: 165px;
+}
+
+.color {
+  background-color: #f7f5f5;
+  padding: 20px 0 20px;
+}
+
+.color-title {
+  font-size: 40px;
+  line-height: 64px;
+  font-weight: 400;
+  color: #86868b;
+  text-align: center;
+}
+.color-list {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.color-item img {
+  width: 100%;
+}
+.color-item {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 300;
+  color: #86868b;
+}
+
+.contacts {
+  background-color: #101010;
+  padding: 20px 0 20px;
+  text-align: center;
+}
+
+.container-title {
+  font-size: 40px;
+  line-height: 64px;
+  font-weight: 400;
+  color: #f5f5f7;
+  margin-bottom: 24px;
+}
+
+.container-btn {
+  cursor: pointer;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 300;
+  color: #fff;
+  background: #0071e3;
+  padding: 12px 28px;
+  border-radius: 28px;
+}
+
+.footer {
+  background-color: #0a0a0a;
+  padding: 16px 0;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 300;
+  color: #86868b;
+  text-align: center;
 }
