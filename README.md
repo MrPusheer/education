@@ -3,10 +3,10 @@
 ## Training Projects (free)
 
 * ###  Website [Iphone 15 Pro](https://mrpusheer.github.io/education/training-projects/iphone-15-pro/) (not ready)
-  **Іnfo:** *Landing page* | **Date:** *March 2024* | **Source:** *YouTube*
+  **Іnfo:** *Landing page* | **Source:** *YouTube + My Revision*
   
 * ###  NewProject [Project Name](https://mrpusheer.github.io/education/training-projects/project-name/) (not ready)
-  **Іnfo:** *Brief information* | **Date:** *Month 2024* | **Source:** *data source*
+  **Іnfo:** *Brief information* | **Source:** *data source*
 
 ## Freelancer Lifestyle (homework) (2024)
 
