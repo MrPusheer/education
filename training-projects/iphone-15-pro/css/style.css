@@ -55,7 +55,7 @@ body {
 }
 
 .headline-img {
-  margin-bottom: 24px;
+  margin: 0 0 24px;
 }
 
 .headline-text {
@@ -63,7 +63,7 @@ body {
   line-height: 32px;
   font-weight: 300;
   color: #86868b;
-  margin-bottom: 24px;
+  margin: 0 0 60px;
   text-align: center;
 }
 
@@ -146,19 +146,22 @@ body {
 
 .contacts-wrapper {
   display: flex;
-  background-color: #86868b;
+
   color: #f7f5f5;
+  align-items: center;
 }
 
 .contacts-form {
-  padding: 60px 60px;
+  padding: 20px 60px 60px;
   text-align: center;
   width: 100%;
+  background-color: #86868b;
+  border-radius: 28px;
 }
 
 .contacts-title {
-  font-size: 64px;
-  line-height: 96px;
+  font-size: 40px;
+  line-height: 64px;
   font-weight: 400;
   margin: 0 0 60px;
 }
@@ -177,14 +180,14 @@ body {
   font-weight: 300;
   color: #f7f5f5;
   font-family: "Roboto", sans-serif;
-  opacity: 0.5;
 }
 
 .contacts-form p {
   font-size: 14px;
   line-height: 20px;
   font-weight: 300;
-  margin: 0 0 100px;
+  margin: 0 0 60px;
+  opacity: 0.5;
 }
 
 .contacts-form button {
@@ -199,7 +202,7 @@ body {
 }
 
 .contacts-img {
-  max-width: 584px;
+  width: 50%;
 }
 
 .footer {
@@ -224,7 +227,10 @@ body {
 
 @media (max-width: 1200px) {
   .headline img {
-    max-width: 100%;
+    width: 100%;
+  }
+  .contacts-img {
+    width: 50%;
   }
 }
 
@@ -237,6 +243,18 @@ body {
   }
   .color-item {
     width: 50%;
+  }
+  .contacts-wrapper {
+    display: block;
+    text-align: center;
+  }
+  .contacts-form {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .contacts-img {
+    width: 60%;
   }
 }
 
@@ -265,7 +283,8 @@ body {
     padding: 10px 22px;
     border-radius: 22px;
   }
-  .functions h2 {
+  .functions h2,
+  .contacts-title {
     font-size: 32px;
     line-height: 40px;
   }
@@ -276,21 +295,37 @@ body {
   }
 
   .color-title {
-    font-size: 40px;
-    line-height: 64px;
+    font-size: 32px;
+    line-height: 40px;
     font-weight: 400;
     color: #86868b;
     text-align: center;
   }
 
-  .color-title {
-    font-size: 32px;
-    line-height: 40px;
-  }
-
   .color-item {
     width: 100%;
     font-size: 20px;
-    line-height: 23px;
+    line-height: 24px;
+  }
+
+  .contacts-input::placeholder {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .contacts-form button {
+    font-size: 20px;
+    line-height: 24px;
+    padding: 10px 44px;
+    border-radius: 22px;
+  }
+  .contacts-form p {
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 300;
+    margin: 0 0 30px;
+    opacity: 0.5;
+  }
+  .contacts-img {
+    display: none;
   }
 }
