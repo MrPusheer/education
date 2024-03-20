@@ -3,13 +3,12 @@
 ## Training Projects
 
 * ###  Website [Iphone 15 Pro](https://mrpusheer.github.io/education/training-projects/iphone-15-pro/) | UA (not ready)
-  
   **Tools:** *HTML | CSS*
   
   **Іnfo:** *Landing page "Iphone 15 Pro" sales*
   
 * ###  New Project [Project Name](https://mrpusheer.github.io/education/training-projects/project-name/) | Language (not ready)
-  **Tools:** *Tools | Tools | Tools | Tools* |
+  **Tools:** *Tools | Tools | Tools | Tools*
 
   **Іnfo:** *Brief information*
 
