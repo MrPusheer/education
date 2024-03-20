@@ -1,12 +1,17 @@
 # HTML / CSS / JavaScript (basic)
 
-## Training Projects (free)
+## Training Projects
 
-* ###  Website [Iphone 15 Pro](https://mrpusheer.github.io/education/training-projects/iphone-15-pro/) (not ready)
-  **Іnfo:** *Landing page* | **Source:** *YouTube + My Revision*
+* ###  Website [Iphone 15 Pro](https://mrpusheer.github.io/education/training-projects/iphone-15-pro/) | UA (not ready)
   
-* ###  NewProject [Project Name](https://mrpusheer.github.io/education/training-projects/project-name/) (not ready)
-  **Іnfo:** *Brief information* | **Source:** *data source*
+  **Tools:** *HTML | CSS*
+  
+  **Іnfo:** *Landing page "Iphone 15 Pro" sales*
+  
+* ###  New Project [Project Name](https://mrpusheer.github.io/education/training-projects/project-name/) | Language (not ready)
+  **Tools:** *Tools | Tools | Tools | Tools* |
+
+  **Іnfo:** *Brief information*
 
 ## Freelancer Lifestyle (homework) (2024)
 
