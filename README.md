@@ -5,17 +5,17 @@
 * ###  Website [Iphone 15 Pro](https://mrpusheer.github.io/education/training-projects/iphone-15-pro/) (not ready)
   **Tools:** *HTML | CSS*
   
-  **Іnfo:** *Landing page "Iphone 15 Pro" sales | UA*
+  **Іnfo:** *Landing page "Iphone 15 Pro" sales |UA*
   
 * ###  Website [AirPods Max](https://mrpusheer.github.io/education/training-projects/airpods-max/) (not ready)
   **Tools:** *HTML | CSS | JS | Methodology BEM*
 
-  **Іnfo:** *Landing page "AirPods Max" sales | EN*
+  **Іnfo:** *Landing page "AirPods Max" sales |EN*
   
-  * ###  New Project [Project Name](https://mrpusheer.github.io/education/training-projects/project-name/) | Language (not ready)
+  * ###  New Project [Project Name](https://mrpusheer.github.io/education/training-projects/project-name/) (not ready)
   **Tools:** *Tools | Tools | Tools | Tools*
 
-  **Іnfo:** *Brief information*
+  **Іnfo:** *Brief information |Language*
 
 ## Freelancer Lifestyle (homework) (2024)
 
