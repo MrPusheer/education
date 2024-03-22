@@ -11,7 +11,7 @@ body {
   margin: 0 auto;
 }
 
-.mein__title {
+.main__title {
   font-size: 64px;
   font-weight: 700;
   margin: 0 0 20px;
@@ -81,13 +81,13 @@ body {
 
 .title--m {
   display: inline-block;
-  transform: translate(-36px, 270px);
+  transform: translate(-36px, 275px);
 }
 
 .title--ax {
   position: relative;
   display: inline-block;
-  transform: translate(-36px, 306px);
+  transform: translate(-112px, 420px);
   z-index: -1;
 }
 
@@ -150,4 +150,69 @@ body {
 
 .composition__wrapper-text p {
   width: 230px;
+}
+
+.case {
+  background-color: #fafafa;
+  padding: 80px 0 100px;
+  text-align: center;
+}
+
+.cose__text {
+  max-width: 825px;
+  margin: 0 auto 40px;
+}
+
+.energy__title {
+  padding: 160px 0 0;
+  margin: 0 0 40px;
+}
+
+.energy__num {
+  font-size: 210px;
+  font-weight: 700;
+}
+.energy__text {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.audio {
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+.audio__wrapper {
+  min-height: 220vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.audio__box {
+  color: #fff;
+  text-align: center;
+  padding: 0 0 50vh;
+}
+
+.audio__text {
+  width: 300px;
+  margin: 0 0 30px;
+}
+
+.btn {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #000;
+  background-color: #fff;
+  padding: 15px 58px;
+  border-radius: 30px;
+  margin: 25px 0 0;
+}
+
+.footer {
+  padding: 50px 0 40px;
+  background-color: black;
 }
