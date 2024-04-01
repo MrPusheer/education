@@ -1,26 +1,26 @@
 @import url('reset.css');
-
+/* ================================ */
 body {
 	font-family: Manrope;
 	color: #333333;
 }
-
+/* ================================ */
 .wrapper {
 	min-height: 100%;
 	overflow: hidden;
 	display: flex;
 	flex-direction: column;
 }
-
+/* ================================ */
 .page {
 	flex: 1 1 auto;
 }
-
+/* ================================ */
 [class*='__container'] {
 	max-width: 1170px;
 	margin: 0 auto;
 }
-
+/* ================================ */
 @media (max-width: 1199.98px) {
 	[class*='__container'] {
 		max-width: 970px;
@@ -37,3 +37,46 @@ body {
 		padding: 0px 15px;
 	}
 }
+/* ================================ */
+.header {
+}
+.header__container {
+	min-height: 103px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 10px;
+}
+
+@media (max-width: 768px) {
+	.header__container {
+	}
+}
+
+.header__logo {
+	font-size: 23px;
+	font-weight: 800;
+}
+.header__menu {
+}
+/* ================================ */
+.menu {
+}
+.menu__list {
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 46px;
+	row-gap: 5px;
+}
+.menu__item {
+}
+.menu__link {
+	font-size: 13px;
+	font-weight: 700;
+}
+.menu__link:hover {
+	text-decoration: underline;
+}
+/* ================================ */
