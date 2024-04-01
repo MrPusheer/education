@@ -12,7 +12,12 @@
 
   **Іnfo:** *Landing page "AirPods Max" sales*
   
-* ###  New Project [Project Name](https://mrpusheer.github.io/education/training-projects/project-name/) (not ready) | Language
+* ###  Website [SmartSpace](https://mrpusheer.github.io/education/training-projects/smart-space/) (not ready) | EN
+  **Tools:** *HTML | CSS*
+
+  **Іnfo:** *Brief information*
+
+  * ###  New Project [Project Name](https://mrpusheer.github.io/education/training-projects/project-name/) (not ready) | Language
   **Tools:** *Tools | Tools | Tools | Tools*
 
   **Іnfo:** *Brief information*
