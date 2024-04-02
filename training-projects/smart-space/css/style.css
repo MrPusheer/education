@@ -39,19 +39,27 @@ body {
 }
 /* ================================ */
 .header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1;
 }
 .header__container {
-	min-height: 103px;
-	padding-top: 10px;
-	padding-bottom: 10px;
 	display: flex;
 	justify-content: space-between;
+	min-height: 103px;
 	align-items: center;
-	gap: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	column-gap: 10px;
+	row-gap: 15px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767.98px) {
 	.header__container {
+		min-height: 0;
+		flex-direction: column;
 	}
 }
 
@@ -68,7 +76,7 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 	column-gap: 46px;
-	row-gap: 5px;
+	row-gap: 10px;
 }
 .menu__item {
 }
@@ -78,5 +86,85 @@ body {
 }
 .menu__link:hover {
 	text-decoration: underline;
+}
+
+@media (max-width: 767.98px) {
+	.menu__list {
+		justify-content: center;
+	}
+	.menu__link {
+		font-size: 18px;
+	}
+}
+/* ================================ */
+.main-block {
+}
+.main-block__container {
+	padding-top: 183px;
+	position: relative;
+}
+.main-block__container::after {
+	content: '';
+	background: #bdccff;
+	position: absolute;
+	width: 200%;
+	top: 0;
+	left: 68%;
+	height: 100%;
+}
+
+.main-block__body {
+}
+.main-block__partners {
+}
+.body-main-block {
+	display: flex;
+}
+.body-main-block__content {
+	flex: 0 1 50%;
+}
+.content-main-block {
+}
+.content-main-block__body {
+	padding-right: 80px;
+}
+.content-main-block__sub-title {
+	font-size: 22px;
+	line-height: 29px;
+	color: #ff9900;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.content-main-block__title {
+	font-size: 54px;
+	line-height: 73px;
+	font-weight: 800;
+	margin-bottom: 20px;
+}
+.content-main-block__text {
+	font-size: 17px;
+	line-height: 23px;
+	letter-spacing: 0.01em;
+	margin-bottom: 45px;
+}
+.content-main-block__form {
+}
+.form-main-block {
+}
+.form-main-block__input {
+}
+.form-main-block__button {
+}
+.body-main-block__slider {
+	flex: 0 1 50%;
+}
+/* ================================ */
+.partners-main-block {
+}
+.partners-main-block__label {
+}
+.partners-main-block__items {
+}
+.partners-main-block__item {
 }
 /* ================================ */
