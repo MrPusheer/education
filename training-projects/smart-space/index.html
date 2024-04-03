@@ -3,11 +3,13 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link
-			href="https://fonts.googleapis.com/css?family=Manrope:regular,500,600,700,800&display=swap"
-			rel="stylesheet">
-		<link href="css/style.css" rel="stylesheet">
-		<title>Smart Space</title>
+		<link rel="stylesheet"
+			href="https://fonts.googleapis.com/css?family=Manrope:regular,500,600,700,800&display=swap">
+		<link rel="stylesheet"
+			href="css/style.css">
+		<link rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+		<title>SmartSpace</title>
 	</head>
 	<body>
 		<div class="wrapper">
@@ -55,21 +57,62 @@
 										Now has you views woman noisy match money rooms.
 									</div>
 								</div>
-								<form class="content-main-block__form form-main-block" action="#">
-									<input class="form-main-block__input" type="text">
+								<form class="content-main-block__form form-main-block"
+									action="#">
+									<input class="form-main-block__input" type="text"
+										placeholder="Enter Zipcode to search properties">
 									<button class="form-main-block__button" type="submit">
 										Search Now!
 									</button>
 								</form>
 							</div>
-							<div class="body-main-block__slider"></div>
+							<!-- Slider main container -->
+							<div class="body-main-block__slider slider-main-block swiper">
+								<!-- Additional required wrapper -->
+								<div class="slider-main-block__wrapper swiper-wrapper">
+									<!-- Slides -->
+									<div class="slider-main-block__slide swiper-slide">
+										<img src="img/main/slider/slide_01.webp" alt="Slide Image 1">
+									</div>
+									<div class="slider-main-block__slide swiper-slide">
+										<img src="img/main/slider/slide_02.webp" alt="Slide Image 2">
+									</div>
+									<div class="slider-main-block__slide swiper-slide">
+										<img src="img/main/slider/slide_03.webp" alt="Slide Image 3">
+									</div>
+								</div>
+							</div>
+							<div class="body-main-block__arrows">
+								<div class="body-main-block__arrow swiper-button-prev"></div>
+								<div class="body-main-block__arrow swiper-button-next"></div>
+							</div>
 						</div>
 						<div class="main-block__partners partners-main-block">
-							<div class="partners-main-block__label">
-								Our Amazing Partners
-							</div>
+							<div class="partners-main-block__label">Our Amazing Partners</div>
 							<div class="partners-main-block__items">
-								<div class="partners-main-block__item"></div>
+								<div class="partners-main-block__item">
+									<img src="img/main/partners/logo_buzz.svg"
+										alt="Logo Partners Buzz">
+								</div>
+								<div class="partners-main-block__item">
+									<img src="img/main/partners/logo_chase.svg"
+										alt="Logo Partners CHASE">
+								</div>
+								<div class="partners-main-block__item">
+									<img src="img/main/partners/logo_microsoft.svg"
+										alt="Logo Partners Microsoft">
+								</div>
+								<div class="partners-main-block__item">
+									<img src="img/main/partners/logo_gucc.svg"
+										alt="Logo Partners GUCC">
+								</div>
+								<div class="partners-main-block__item">
+									<img src="img/main/partners/logo_airbnb.svg"
+										alt="Logo Partners airbnb">
+								</div>
+								<div class="partners-main-block__item">
+									<img src="img/main/partners/logo_uber.svg" alt="Logo Partners UBER">
+								</div>
 							</div>
 						</div>
 					</div>
@@ -78,9 +121,13 @@
 			<footer class="footer">
 			</footer>
 		</div>
+		<script
+			src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+		<script src="js/script.js"></script>
 	</body>
+
 </html>
 <!-- TODO Зробити оранжені кнопки іншим color -->
 <!-- TODO Можливо змінити чорний в боді на 1d1d1f -->
 <!-- TODO Перепідключити шрифт в css @import -->
-<!-- *Зробить сніпед на хедер контейнер -->
+<!-- TODO Зробити файл резет -->
