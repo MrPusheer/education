@@ -2,18 +2,12 @@
 const swiper = new Swiper('.slider-main-block', {
 	// Optional parameters
 	loop: true,
-	// Navigation arrows
-	navigation: {
-		nextEl: '.body-main-block__arrow.swiper-button-next',
-		prevEl: '.body-main-block__arrow.swiper-button-prev',
-	},
 	// Auto Play
 	autoplay: {
-		delay: 6000,
+		delay: 4000,
 	},
 })
-
-// Таби
+// Tab
 const tabNavItems = document.querySelectorAll('.tabs-deals__button')
 const tabItems = document.querySelectorAll('.item-tabs')
 document.addEventListener('click', function (e) {
